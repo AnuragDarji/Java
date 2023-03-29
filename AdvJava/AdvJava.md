@@ -44,7 +44,7 @@ import java.net.*;
 public class GetHost {
     public static void main(String[] args) {
         try{
-            InetAddress ip = InetAddress.getByName("192.168.73.94");
+            InetAddress ip = InetAddress.getByName("192.168.00.00");
             System.out.println("HostAddress: "+ip.getHostName());
         }
         catch(Exception e){
