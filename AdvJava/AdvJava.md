@@ -152,6 +152,9 @@ public class Server {
   }
    ```
 *Output:*
+<p align="center">
+<img src="" width="300" height="auto">
+</p>
 <br>
 
 **Client-Server ChatApp**
@@ -230,3 +233,6 @@ public class ChatClient {
 }
 ```
 - *Output:*
+<p align="center">
+<img src="" width="300" height="auto">
+</p>
