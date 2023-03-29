@@ -153,7 +153,7 @@ public class Server {
    ```
 *Output:*
 <p>
-<img src="https://user-images.githubusercontent.com/127482974/228489138-48f15716-4fd9-4a6d-933a-67310a189158.PNG" width="100" height="auto">
+<img src="https://user-images.githubusercontent.com/127482974/228489138-48f15716-4fd9-4a6d-933a-67310a189158.PNG" width="250" height="auto">
 </p>
 <br>
 
