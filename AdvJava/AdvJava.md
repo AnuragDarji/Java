@@ -234,5 +234,5 @@ public class ChatClient {
 ```
 - *Output:*
 <p>
-<img src="" width="500" height="auto">
+<img src="https://user-images.githubusercontent.com/127482974/228490775-a7c15494-5423-430f-930d-58445a189b17.PNG" width="500" height="auto">
 </p>
