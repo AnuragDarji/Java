@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:c="http://java.sun.com/jsf/core"
+	    xmlns:ui="http://java.sun.com/jsf/facelets"
+		xmlns:h="http://java.sun.com/jsf/html">
+
+<h:body>
+	<h:form>
+		<h:outputLabel for="txtName">
+			<h:outputText value="Enter Product Name" />
+		</h:outputLabel>
+		<h:inputText id="txtName" value="#{obj.name}" />
+		
+		<br/>
+		
+		<h:outputLabel for="txtQty">
+			<h:outputText value="Enter Qty" />
+		</h:outputLabel>
+		<h:inputText id="txtQty" value="#{obj.qty}" />
+		
+		<br/>
+		
+		<h:outputLabel for="txtPrice">
+			<h:outputText value="Enter Price" />
+		</h:outputLabel>
+		<h:inputText id="txtPrice" value="#{obj.price}" />
+		
+		<br/>
+		
+			<h:commandButton id="cmdInsert" value="Add Item" action="#{obj.add}" />
+		
+	</h:form>
+</h:body>
+</html>
