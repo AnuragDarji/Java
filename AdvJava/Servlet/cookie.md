@@ -55,5 +55,5 @@ web.xml
 ```
 
 Output:
-![App Screenshot]()
-![App Screenshot]()
+![App Screenshot](https://github.com/AnuragDarji/Java/assets/127482974/5f8b7914-e903-4078-8963-a2f0ee332463)
+![App Screenshot](https://github.com/AnuragDarji/Java/assets/127482974/624f8bfa-2fac-4842-9254-01b2989b9a9f)
