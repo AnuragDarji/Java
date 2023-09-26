@@ -25,3 +25,27 @@ public class MatrixDiagonalSum {
         return diagonalSums;
     }
 }
+
+// ============ second way ==========
+
+class MatrixDiagonalSum{
+	public static void main(String[] args) {
+		int[][] matrix = {
+			{1,2,3},
+			{4,1,6},
+			{7,8,1}
+		};
+
+		int diagonalSum = 0;
+
+		for(int i=0; i<matrix.length; i++){
+			for (int j=0; j<matrix[0].length; j++) {
+				if(i == j){
+					diagonalSum = matrix[i][j] + diagonalSum;
+				}
+			}
+		}
+
+		System.out.println(diagonalSum);
+	}
+}
